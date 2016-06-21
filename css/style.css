@@ -1,0 +1,378 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import "bourbon";
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/*LOADER CHARGEMENT*/
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -44px;
+    margin-left: -126px;
+    width: 252px;
+    height: 88px;
+    z-index: 56;
+}
+
+.signature {
+    width: 252px;
+    height: 88px;
+}
+
+.signature__inner {
+    fill: none;
+}
+
+.signature__path {
+    stroke: #b21616;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: opacity 3s ease-in-out;
+}
+
+/*BARRE DE RECHERCHE*/
+#wrap {
+  margin-top: 2px;
+  margin-right: 1px;
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  float: right;
+  padding: 0;
+  position: relative;
+  z-index: 98;
+}
+
+input[type="text"] {
+  height: 50px;
+  font-size: 45px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+  width: 270px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 67px;
+  width: 63px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* PERSONNALISATIONS DES SLIDES BACKGROUND*/
+#background-slider .indicators .indicator-item {
+    display:none;
+}
+
+
+/* PERSONNALISATION DES SLIDES*/
+  .slider .indicators .indicator-item {
+    z-index: 16;
+}
+
+div ul.slides {
+    height:100%!important;
+}
+
+/*FLECHE RETOUR EN HAUT DE PAGE*/
+.fleche {
+    margin-bottom: 12px;
+    height: 4rem;
+    position: absolute;
+}
+
+.fleche:hover {
+    color:black;
+   -webkit-transform:rotate(720deg);
+   -moz-transform:rotate(720deg);
+   -o-transform:rotate(720deg);
+   -ms-transform:rotate(720deg);
+   transform:rotate(720deg);
+  -webkit-transition:-webkit-transform 2s;
+  -moz-transition:-moz-transform 2s;       // Mozilla
+  -o-transition:-o-transform 2s;           // Opéra
+  -ms-transition:-ms-transform 2s;
+}
+
+#fleche {
+   position: fixed;
+   right:25px;
+   z-index:99;
+   bottom: 15px;
+   cursor: pointer;
+}
+
+/*COULEUR D'ARRIERE PLAN*/
+body {
+    background: #9e9e9e;
+}
+
+blockquote {
+   font-family: 'Shadows Into Light', cursive !important;
+   font-size:30px;
+}
+
+span{
+  display: inline-block;
+}
+
+/* PERSONNALISATION DU TEXTE*/
+p {
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px black;
+	 margin-right: 80px;
+	 margin-left: 80px;
+}
+
+/*TITRES ECRITURES QUI ECLATENT*/
+h1{
+  font-family: 'Indie Flower', cursive !important;
+  text-transform: uppercase;
+  font-size: 38px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+  font-weight: bold;
+}
+
+h3 {
+ color: black;
+ font-family:'Indie Flower', cursive !important;
+ font-size: 4em;
+ text-shadow: 3px 3px 3px white;
+ font-weight:bold;
+ text-transform : capitalize;
+}
+
+/* PERSONNALISATION DES TITRES DANS LAS SLIDES*/
+h5 {
+ color: black;
+ font-family:'Indie Flower', cursive !important;
+ font-size: 3em;
+ text-shadow: 3px 3px 3px black;
+ font-weight:bold;
+ text-transform : capitalize;
+}
+
+h6 {
+	  text-align: center;
+    font-size: 38px;
+    font-family:'Indie Flower', cursive !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+
+/*COULEURS DES LIENS*/
+a:hover {
+    color: #dd4b39;
+}
+.link:visited {
+  color: #dd4b39;
+}
+
+
+/*MENTIONS LEGALES*/
+.mentions {
+    font-size: 16px;
+}
+
+
+/*RESEAUX SOCIAUX*/
+div .footer-copyright {
+    text-align: center;
+}
+@base-grey: #333;
+
+@facebook: #3b5998;
+@twitter: #55acee;
+@g-plus: #dd4b39;
+@l-in: #0976b4;
+@github: #999;
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.buttons {
+  text-align: center;
+}
+
+// Button frame
+.btn {
+  padding: .875rem 1.2rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  display: inline-block;
+  outline: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(0,0,0,.4);
+  margin: 0 auto;
+  float: none;
+}
+    // Assign brand colors
+    .btn.twitter {
+      background-color:#3b5998;
+      border-color: @twitter;
+    }
+
+    .btn.google-plus {
+      background-color: #d34836;
+      border-color: @g-plus;
+    }
+
+    .btn.linkedin {
+      background-color: #0976b4;
+      border-color: @l-in;
+    }
+
+    .btn.github {
+      background-color: #ffc838;
+      border-color: @github;
+    }
+
+    .btn.facebook {
+      background-color: #3b5998;
+      border-color: @facebook;
+    }
+
+button span,
+span {
+  top: 0px;
+  position: relative;
+  transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+    button:hover span.label,
+    a.btn:hover span.label {
+      top: -40px;
+      transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    }
+
+// Override inline-block from original
+.fa {
+  position: absolute;
+}
+
+
+.fa.fa-google-plus:before,
+.fa.fa-twitter:before,
+.fa.fa-linkedin:before,
+.fa.fa-github:before,
+.fa.fa-facebook:before {
+  top: 100px;
+  left: -50%;
+  text-align: center;
+  position: relative;
+  transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+button:hover .fa.fa-google-plus:before,
+button:hover .fa.fa-twitter:before,
+a.btn:hover .fa.fa-google-plus:before,
+a.btn:hover .fa.fa-twitter:before,
+a.btn:hover .fa.fa-linkedin:before,
+a.btn:hover .fa.fa-github:before,
+a.btn:hover .fa.fa-facebook:before {
+  top: 1rem;
+  left: -50%;
+  transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+
+div .modal-content p {color:black;}
+
+
+.modal-trigger  {text-align: center;
+    display: block;
+    width: 100px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 60px;
+    background-color: transparent;
+ }
+
+
+.modal-trigger:hover {background-color: #424242!important;}
+
+h1 { 
+    animation-duration: 7s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

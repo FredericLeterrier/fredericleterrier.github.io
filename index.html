@@ -1,0 +1,420 @@
+ <!DOCTYPE html>
+  <html lang="fr">
+
+<!--EN-TETE DE PAGE-->
+    <head>
+      <meta charset="UTF-8">
+      <title>Web-design by FRED</title>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+
+<body>
+
+<!--LOADER-->
+<div class="loader">
+    <svg class="signature" viewBox="0 0 757 267" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <g class="signature__inner">
+            <path class="signature__path" d="M2.99999994,179.5 C2.99999994,179.5 126,90.5 155.5,37.5 C185,-15.5 120.500001,-2.5 75.4999999,62 C30.4999991,126.5 79.9764385,192.654696 129.5,179.5 C161.5,171 172,78 144,127.5 C116,177 188.5,192 205.5,166.5 C222.5,141 155.5,95 155.5,123 C155.5,151 210.5,198.5 240,179.5 C269.5,160.5 282,119 262,112.5 C242,106 228.5,144 237.5,170 C246.5,196 276,179.5 290,160.5 C304,141.5 283,90 277.5,117 C272,144 286,165.5 300,175 C314,184.5 347,170.5 364.5,150 C382,129.5 378.5,110.5 364.5,109 C350.5,107.5 308,169 366.5,181 C381.925894,184.164286 405,167.5 411.5,110 C418,52.5 387,2.5 387,2.5 C387,2.5 382.5,9 382.5,102 C382.5,195 414.5,179.5 414.5,179.5 C414.5,179.5 423.5,179.5 439.5,146 C455.5,112.5 461.5,103 461.5,103 C461.5,103 448.5,172.5 475.5,179.5 C502.5,186.5 517,103 517,103 L505.5,179.5 C505.5,179.5 516.5,135.5 534,112.5 C551.5,89.5 534,153.5 541,173 C548,192.5 565.656456,182.343544 602,146 C638.343544,109.656456 629,79 594,140.5 C559,202 617.5,186.5 637,150 C656.5,113.5 640.17965,92.1407007 630,112.5 C623.5,125.5 632.5,134.5 674.5,179.5 C716.5,224.5 631.5,261 594,264 C556.5,267 576,209 650,179.5 C724,150 754,179.5 754,179.5"></path>
+        </g>
+    </svg>
+</div>
+
+<!--FLECHE HAUT DE PAGE-->
+<a href="#"><img id="fleche" class="fleche" title="Retour en haut de Page" alt="bouton haut de page" src="images/icones/fleche.png"/></a>
+
+<!--BARRE NAVIGATION-->
+      <nav id="debut" class="#424242 grey darken-3">
+        <div class="nav-wrapper">
+
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a alt="présentation" title="Qui suis-je ?" id="presentation" class="flow-text" href="#lien1">Présentation</a></li>
+            <li><a alt="Côté personnel" title="Mes hobbies" class="flow-text" href="#lien2">Côté Perso</a></li>
+            <li><a alt="Côté professionnel" title="Mon parcours professionnel"class="flow-text" href="#lien3">Côté Pro</a></li>
+            <li><a alt="Contact" title="Pour prendre contact" class="flow-text" href="#lien4">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+        <li><a alt="présentation" title="Qui suis-je ?" href="#lien1">Présentation</a></li>
+        <li><a alt="Côté personnel" title="Mes hobbies" href="#lien2">Côté Perso</a></li>
+        <li><a alt="Côté professionnel" title="Mon parcours professionnel" href="#lien3">Côté Pro</a></li>
+        <li><a alt="Contact" title="Pour prendre contact" href="#lien4">Contact</a></li>
+      </ul>
+
+      <!--BARRE DE RECHERCHE-->
+      <div id="wrap">
+        <form action="" autocomplete="on">
+        <input id="search" title="Vous cherchez quelque chose ?" name="search" type="text" placeholder="Recherche"><input id="search_submit" value="Rechercher" type="submit">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+	<!--CORP DE PAGE-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/style.js"></script>
+
+<!--FOND D'ECRAN IMAGE/SLIDES-->
+<div class="slider" id="background-slider">
+    <ul class="slides">
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/note.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/ordi.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/buisness.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/souris.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/homme.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/telephone.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/hublot.jpeg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/bureau.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/pot.jpg"/> 
+      </li>
+      <li class="z-depth-4" >
+        <img alt="photo noir & blanc" src="images/fond/avion.jpg"/> 
+      </li>
+      </ul>
+      </div>
+
+<!--PRESENTATION-->
+  <div class="row">
+  <strong><h1  id="lien1" class="col s12" class="#dcedc8 light-green lighten-4">Frederic Leterrier</h1></strong><br>
+  <blockquote>"De l'Est à l'Ouest en un clic"</blockquote><br>
+  <p>Moi, c'est Fred, 30 ans, j'habite <strong>Cherbourg-en-Cotentin</strong> dans la <strong>Manche</strong>, avec mon chat... et ma copine.<br> Je suis actuellement en reconversion professionnelle dans le monde merveilleux de l'informatique.
+  Jeune apprenant à la <a class="link" title="Ce lien pointe vers le site www.mancheopenschool.fr" href="http://www.mancheopenschool.fr/"><strong>Manche Open School</strong></a> en tant que référent informatique et numérique, il me reste encore beaucoup à faire, à améliorer, à essayer, à apprendre.<br><br>
+  J'ai plein de passions, parmi lesquelles le cinéma, la musique, la fréquentation assidue de restaurants chinois, les jeux videos et les séries tv de qualités, et puisqu'il faut faire un peu de sport j'ai choisi le kayak de mer...<br>
+  Ceux qui m'entourent le savent, j'adore fêter les succès, mais je refuse de me "satisfaire". Je peux être chiant, tenace, car exigeant... <br><br>Je crois que c'est en cherchant à se dépasser qu'on donne vie à des choses exceptionnelles. Du genre de celles qui marquent, qui jalonnent une vie. Eviter de se reposer sur ses acquis, toujours essayer de surprendre, de déchiffrer, prendre des risques, oser se remettre en cause. Réussir parfois, se vautrer souvent.<br><br>
+  Mais franchement, c'est dans ces moments là qu'on se sent vivant, non ?</p>
+</div>
+
+<!--PERSO JEUX VIDEOS-->
+<div id="games" class="row">
+  <h1  id="lien2" class="col s12" class="#dcedc8 light-green lighten-4">Jeux vidéos</h1><br>
+  <p>Dopé aux pixels depuis pas mal d'années maintenant, c'est avec une passion dévorante que j'ai vécu les périodes les plus marquantes du jeu vidéo, de l'âge d'or des consoles 8-Bits comme la Nintendo Entertainment System aux machines les plus récentes comme la Playstation 4 ... <br><br>Depuis quelques jours je poursuis cette passion encore plus loin avec un émulateur rétro-gaming nommé <a title="Ce lien pointe vers le site raspian-france.fr" href="http://raspbian-france.fr/recalbox-raspberry-pi-emulateur-retro-gaming/">Recalbox</a> installé sur mon <a title="Ce lien pointe vers le site www.framboise314.fr" class="link" href="http://www.framboise314.fr/raspberry-pi-3-quoi-de-neuf-docteur/">Raspberry Pi 3</a>...<br><br>Quel plaisir de (re)découvrir cet univers vintage.<br>Pas facile d'être un nostalgique du jeu vidéo !!!</p>
+</div>
+
+   <!--SLIDER JEUX VIDEOS-->
+  <div class="slider">
+      <ul class="slides">
+        <li class="z-depth-4">
+          <img src="images/jeux/bf.jpg" alt="battlefield 1" title="Après plusieurs années de conflits contemporains, Battlefield 1 plonge les joueurs dans la première Guerre Mondiale.">
+          <div class="caption center-align">
+            <h3>BATTLEFIELD 1</h3>
+            <h5 class="light grey-text text-lighten-3">Disponible dès le 21 octobre 2016.</h5>
+      </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/division.jpg" alt="the division" title="The Division est un jeu d'action en ligne où le joueur est plongé dans une société dévastée par une pandémie. ">
+          <div class="caption left-align">
+            <h3>THE DIVISION</h3>
+            <h5 class="light grey-text text-lighten-3">24 mai 2016 maj 1.2 Conflit.</h5>
+          </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/hitman.jpg" alt="hitman" title=" Hitman amènera les joueurs à remplir des contrats d’élimination contre des cibles aussi puissantes que célèbres, dans des lieux exotiques du monde entier, des élégants boulevards parisiens aux marchés bondés de Marrakech, en passant par les côtes ensoleillées de l’Italie.">
+          <div class="caption right-align">
+            <h3>HITMAN agent 47</h3>
+            <h5 class="light grey-text text-lighten-3"> DLC Sapienza 26 avril prochain.</h5>
+          </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/overwatch.jpg" alt="overwatch" title="Jeu d'action en vue à la première personne, Overwatch prend place dans un futur proche, en 2074 pour être exact.">
+          <div class="caption center-align">
+            <h3>OVERWATCH</h3>
+            <h5 class="light grey-text text-lighten-3">Sortie le 24 Mai 2016.</h5>
+          </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/uncharted4.jpg" alt="uncharted 4" title="Le célèbre explorateur devra révéler le complot qui se cache derrière un légendaire trésor de pirates.">
+          <div class="caption left-align">
+            <h3>UNCHARTED 4: A Thief's End</h3>
+            <h5 class="light grey-text text-lighten-3">Sortie le 10 Mai 2016.</h5>
+          </div>
+        </li>
+         <li class="z-depth-4">
+          <img src="images/jeux/mafia.jpg" alt="mafia 3" title="Mafia III est un jeu vidéo de tir à la troisième personne, dont l'action se déroule à New Bordeaux, en 1968.">
+          <div class="caption right-align">
+            <h3>MAFIA III</h3>
+            <h5 class="light grey-text text-lighten-3">Avant-première le 13 Juin 2016.</h5>
+          </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/sherlock.jpg" alt="sherlock holmes" title="Sherlock Holmes : The Devil's Daughter est un thriller d’enquête criminelle mélangeant action et investigation, dans un Londres victorien vaste et détaillé.">
+          <div class="caption right-align">
+            <h3>SHERLOCK HOLMES: The devil's daughter</h3>
+            <h5 class="light grey-text text-lighten-3">Date de sortie le 10 juin 2016.</h5>
+          </div>
+        </li>
+        <li class="z-depth-4">
+          <img src="images/jeux/tomb.png" alt="tomb raider" title="Deuxième opus du reboot de la saga Tomb Raider sur PS4, Rise of the Tomb Raider prend place quelques années après les événements du premier jeu où l'on retrouve l'héroïne plus mature et marquée par l'épopée qu'elle a traversée.">
+          <div class="caption right-align">
+            <h3>RISE OF THE TOMB RAIDER</h3>
+            <h5 class="light grey-text text-lighten-3">Fin 2016 sur PS4.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+<!--PERSO SERIE TV-->
+<div class="row">
+  <h1  id="lien2" class="col s12" class="#dcedc8 light-green lighten-4">Series TV</h1><br>
+  <p>Je ne peux nier vivre entre deux mondes: la fiction et la réalité.<br>Passionné par le 7ème art, la musique, les séries TV et tout ce qui gravite autour depuis quelques années ...<br>
+  Pas assez de temps pour tout connaitre, et c'est normal vu le nombre de nouvelles series TV qui débarquent, mais combien en vallent vraiment le coup ??? <br><br>j'ai créé une petite sélection de pépite télévisée dans l'optique de découvrir, partager et échanger avec vous !!!<br>Là encore, ma <a title="Ce lien pointe vers le site www.framboise314" href="http://www.framboise314.fr/raspberry-pi-3-quoi-de-neuf-docteur/">framboise</a> préférée me permet d'en visionner une collection impressionnante grâce à un media-center <a class="link" title="Ce lien pointe sur le site raspian-france.fr" href="http://raspbian-france.fr/media-center-raspberry-pi-osmc-xbmc/">OSMC</a> installé dessus.<br><br>Bon voyage ...</p>
+</div>
+
+<!--SLIDER SERIES TV-->
+        <div class="slider">
+            <ul class="slides">
+              <li class="z-depth-4">
+                <img src="images/serie/bettercallsaul.jpg" alt="better call saul" title="Jimmy McGill, est un avocat qui peine à joindre les deux bouts, à Albuquerque, au Nouveau-Mexique. Pour boucler ses fins de mois, il n'aura d'autres choix que se livrer à quelques petites escroqueries.">
+                <div class="caption center-align">
+                <h3>BETTER CALL SAUL</h3>
+                  <h5 class="light grey-text text-lighten-3">L’avocat véreux s’offre une saison 3 en 2017.</h5>
+                </div>
+              </li>
+
+              <li class="z-depth-4">
+                <img src="images/serie/fargo.jpg" alt="fargo" title="Fargo est une série télévisée américaine d'anthologie créée par Noah Hawley et diffusée depuis le 15 avril 2014.">
+                <div class="caption left-align">
+                  <h3>FARGO</h3>
+                  <h5 class="light grey-text text-lighten-3">La saison 3 ne sera pas diffusée avant 2017. </h5>
+                </div>
+              </li>
+
+              <li class="z-depth-4">
+                <img src="images/serie/haltandcatchfire.jpg" alt="halt & catch fire" title="Halt and Catch Fire est une série télévisée américaine créée par Christopher Cantwell et Christopher C. Rogers diffusée depuis le 1er juin 2014.">
+                <div class="caption right-align">
+                  <h3>HALT & CATCH FIRE</h3>
+                  <h5 class="light grey-text text-lighten-3">Saison 3 durant l’été 2016.</h5>
+                </div>
+              </li>
+
+              <li class="z-depth-4">
+                <img src="images/serie/mrrobot.jpg" alt="mr robot" title="Mr. Robot est une série télévisée américaine créée par Sam Esmail et diffusée depuis le 24 juin 2015.">
+                <div class="caption left-align">
+                  <h3>Mr ROBOT</h3>
+                  <h5 class="light grey-text text-lighten-3">Saison 2 lancée le 13 juillet 2016.</h5>
+                </div>
+              </li>
+
+              <li class="z-depth-4">
+                <img src="images/serie/vinyl.jpg" alt="vinyl" title="Vinyl est une série télévisée américaine créée par Martin Scorsese, Mick Jagger, Rich Cohen et Terence Winter, diffusée depuis le 14 février 2016.">
+                <div class="caption right-align">
+                  <h3>VINYL</h3>
+                  <h5 class="light grey-text text-lighten-3">Renouvelée pour une saison 2.</h5>
+                </div>
+              </li>
+
+              <li class="z-depth-4">
+                <img src="images/serie/am.png" alt="american crime" title="American Crime est une série télévisée américaine créée par John Ridley diffusée depuis le 5 mars 2015.">
+                <div class="caption right-align">
+                  <h3>AMERICAN CRIME</h3>
+                  <h5 class="light grey-text text-lighten-3">Saison 2 diffusée depuis le 5 mars 2015.</h5>
+                </div>
+              </li>
+              <li class="z-depth-4">
+                <img src="images/serie/truedetective.jpg" alt="true detective" title="Toutes les bonnes choses ont une fin et il semblerait que cela soit le cas également pour l’incroyable True Detective pour laquelle il n’y aura pas de saison 3.">
+                <div class="caption right-align">
+                  <h3>TRUE DETECTIVE</h3>
+                  <h5 class="light grey-text text-lighten-3">Pas de saison 3 prévue.</h5>
+                </div>
+              </li>
+              <li class="z-depth-4">
+                <img src="images/serie/narcos.jpg" alt="narcos" title="Loin d’un simple biopic de Pablo Escobar, la série hyper-réaliste Narcos explore en profondeur le monde violent des cartels et de la cocaïne en se basant sur des faits réels.">
+                <div class="caption right-align">
+                  <h3>NARCOS</h3>
+                  <h5 class="light grey-text text-lighten-3">Saison 2 pour août prochain.</h5>
+                </div>
+              </li>
+              <li class="z-depth-4">
+                <img src="images/serie/breakingbad.jpg" alt="breaking bad" title="Atteint d'un cancer incurable, le professeur de chimie Walter White décide de tout mettre en oeuvre pour mettre définitivement à l'abri sa famille. Sa solution ? Fabriquer et vendre du crystal meth. Il fait appel à Jesse, un de ses anciens élèves devenu un petit dealer de seconde zone...">
+                <div class="caption right-align">
+                  <h3>BREAKING BAD</h3>
+                  <h5 class="light grey-text text-lighten-3">Mes adieux à l'une des meilleures séries de tous les temps.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+<div class="row">
+  <h1  id="lien3" class="col s12" class="#dcedc8 light-green lighten-4">Côté professionnel</h1><br>
+  <p>Comme je le disais lors de ma présentation, je suis actuellement en formation à la <a title="Ce lien pointe vers le site www.mancheopenschool.fr" class="link" href="http://www.mancheopenschool.fr/">Manche Open School</a> de Saint-Lô, et on peut dire que je suis entouré de professionnels très confirmés.<br><br>La <strong>Manche Open School</strong> est une école qui propose une formation intensive pour apprendre à devenir <strong>éférent numérique</strong>.<br>Elle met à disposition son expertise et ses moyens matériels, un accompagnateur permanent et de nombreux partenaires et intervenants extérieurs pour animer la formation.<br><br>La MOS forme des profils de <strong>responsables numériques</strong> en transmettant les compétences techniques nécessaires. Je serais amené à conseiller et guider les organismes où j'exercerais.<br>
+</p>
+</div>
+
+<!--NUAGE TAGS-->
+<div style="_height:px; width:px;background-color:#424242;font-family:Arial; border: 1px solid #FFFFFF; text-align:left;">
+   <a  href="http://www.mancheopenschool.fr/" style="font-size:21px;text-decoration:none; color: #DE2159;">Jquery</a>  
+   <a  href="http://www.codingschool.fr/" style="font-size:19px;text-decoration:none; color: #87A800;">PHP</a>   
+   <a  href="http://www.codingschool.fr/" style="font-size:18px;text-decoration:none; color: #FF7600;">HTML5</a>  
+   <a  href="http://www.raspberrypi-france.fr/" style="font-size:19px;text-decoration:none; color: #039FAF;">Raspberry Pi</a>  
+   <a  href="https://www.factorfx.com/" style="font-size:15px;text-decoration:none; color: #FF7600;">Internet</a>
+   <a  href="https://www.factorfx.com/" style="font-size:14px;text-decoration:none; color: #039FAF;">Linux</a>
+   <a  href="http://www.codingschool.fr/" style="font-size:20px;text-decoration:none; color: #87A800;">CSS3</a>  
+   <a  href="https://www.factorfx.com/" style="font-size:21px;text-decoration:none; color: #039FAF;">mySQL</a>  
+   <a  href="http://www.codingschool.fr/" style="font-size:19px;text-decoration:none; color: #FF7600;">WordPress</a>
+   <a  href="http://www.mancheopenschool.fr/" style="font-size:21px;text-decoration:none; color: #DE2159;">Jquery</a>
+   <a  href="http://www.codingschool.fr/" style="font-size:16px;text-decoration:none; color: #039FAF;">Javascript</a>  
+   <a  href="https://www.factorfx.com/" style="font-size:19px;text-decoration:none; color: #FF7600;">Windows</a>  
+   <a  href="http://www.mancheopenschool.fr/" style="font-size:14px;text-decoration:none; color: #039FAF;"> VirtualBox</a>
+   <a  href="http://www.codingschool.fr/" style="font-size:21px;text-decoration:none; color: #DE2159;"> Apache 2</a>
+   <a  href="https://www.factorfx.com/" style="font-size:20px;text-decoration:none; color: #87A800;">http</a>
+   <a  href="http://www.mancheopenschool.fr/" style="font-size:14px;text-decoration:none; color: #039FAF;">ssh</a>
+   <a  href="https://www.factorfx.com/" style="font-size:15px;text-decoration:none; color: #FF7600;">Switch</a>
+</div><br>
+
+<p>Diffèrents intervenants comme la <a title="Ce lien pointe vers le site www.codingschool.fr" class="link" href="http://www.codingschool.fr/"><strong>codingschool</strong></a> ou <a class="link" title="Ce lien pointe vers le site www.factorfx.com" href="https://www.factorfx.com/"><strong>factorfx</strong></a> me guident tout au long de cette aventure ...<br>Passionné depuis mon adolescence par le numérique, je souhaite acquérir avec cette formation de nouvelles compétences et développer mon expérience pour me réorienter dans ce domaine dont j'ignorais les tenants et les aboutissants.<br><br>Peu à peu, la formation transforme ma vision du digital et me donne les outils et les compétences nécessaires aux besoins des entreprises pour ne pas laisser passer le "train du numérique".<br><br>Maintenant qu'on se connait un peu mieux vous pouvez me suivre sur les réseaux sociaux, et si vous avez une question, vous pouvez prendre contact par email plus bas, je vous répondrais le plus rapidement possible ...<br>Vous pouvez également consulter, imprimer ou télécharger mon <strong>CV</strong> en cliquant sur le bouton suivant :</p>
+
+ <!-- Modal Trigger -->
+  <a title="cv.pdf 90ko" alt="bouton CV" class="btn modal-trigger" href="#modal1">CV</a>
+<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p>Afin de mieux contrôler mon identité sur internet, vous ne pourrez pas avoir accès à mes informations personnelles telles que adresse postale, numéro de téléphone personnel, date de naissance...<br><br>
+      Pour plus de renseignement merci de prendre contact par mail à l'adresse suivante: f.leterrier@mancheopenschool.fr<br>
+      <p>Vous pouvez consulter, imprimer ou télécharger mon CV au format .pdf en cliquant sur le lien suivant :<p><a title="Consulter, télécharger ou imprimer mon cv.pdf" class="link" href="images/telechargement/cv.pdf">Curriculum Vitae</a></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Fermer</a>
+    </div>
+  </div>
+
+<!--ECLATEMENT ECRITURE-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+
+<!--FOOTER-->
+        <footer id="lien4" class="#424242 grey darken-3" class="page-footer" >
+                <div class="buttons">
+  <a href="https://www.facebook.com/Fred87877" alt="facebook" title="Facebook" class="btn facebook">
+    <span class="label">facebook</span>
+    <span class="icon fa fa-facebook"></span>
+  </a>
+  
+  <a href="https://plus.google.com/105940356605593715583" alt="google +" title="Google +" class="btn google-plus">
+    <span class="label">Google Plus</span>
+    <span class="icon fa fa-google-plus"></span>
+  </a>
+
+  <a href="https://twitter.com/fred87877" alt="twitter" title="Twitter" class="btn twitter">
+    <span class="label">twitter</span>
+    <span class="icon fa fa-twitter"></span>
+  </a>
+  <a href="https://www.linkedin.com/in/frederic-leterrier-535686122?authType=NAME_SEARCH&authToken=pUu_&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A509287289%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1465467892442%2Ctas%3Afrederic%20leterr" alt="Linkedin" title="Linkedin" class="btn linkedin">
+    <span class="label">Linkedin</span>
+    <span class="icon fa fa-linkedin"></span>
+  </a>
+  <a href="mailto:f.leterrier@mancheopenschool.fr" alt="email" title="f.leterrier@mancheopenschool.fr" class="btn github">
+    <span class="label">Email</span>
+    <span class="icon fa fa-github"></span>
+  </a>
+</div>
+    <p class="mentions">mentions légales 2016 @ <strong>Frédéric Leterrier</strong>.</p>
+
+        </footer>
+
+
+
+
+<!--SCRIPT NAVBAR-->
+    <script>  $(".button-collapse").sideNav(); </script>
+
+    <script>
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+      });</script>
+          
+<!--SCRIPT RETOUR HAUT DE PAGE-->
+<script>$("#fleche").click(function(){
+        $('html,body').animate({scrollTop: 0},2000);
+    });</script>
+
+<script>$(document).ready(function(){
+      $('.carousel').carousel();
+    });$('.carousel').carousel('next');
+$('.carousel').carousel('next', [3]); // Move next n times.
+// Previous slide
+$('.carousel').carousel('prev');
+$('.carousel').carousel('prev', [4]); // Move prev n times.
+</script>
+
+<!--SCRIPT MODAL CV-->
+<script>$(document).ready(function(){
+    $('.modal-trigger').leanModal();
+  });
+  $('#modal1').openModal();
+   $('#modal1').closeModal();
+   </script>
+
+<!--TEST ECRITURE-->
+<script>
+!function($,e,t,a){var n=function(){if(t.documentMode)return t.documentMode;for(var e=7;e>0;e--){var n=t.createElement("div");if(n.innerHTML="<!--[if IE "+e+"]><span></span><![endif]-->",n.getElementsByTagName("span").length)return n=null,e;n=null}return a}(),r=e.console||{log:function(){},time:function(){}},i="blast",s={latinPunctuation:"–—′’'“″„\"(«.…¡¿′’'”″“\")».…!?",latinLetters:"\\u0041-\\u005A\\u0061-\\u007A\\u00C0-\\u017F\\u0100-\\u01FF\\u0180-\\u027F"},l={abbreviations:new RegExp("[^"+s.latinLetters+"](e\\.g\\.)|(i\\.e\\.)|(mr\\.)|(mrs\\.)|(ms\\.)|(dr\\.)|(prof\\.)|(esq\\.)|(sr\\.)|(jr\\.)[^"+s.latinLetters+"]","ig"),innerWordPeriod:new RegExp("["+s.latinLetters+"].["+s.latinLetters+"]","ig"),onlyContainsPunctuation:new RegExp("[^"+s.latinPunctuation+"]"),adjoinedPunctuation:new RegExp("^["+s.latinPunctuation+"]+|["+s.latinPunctuation+"]+$","g"),skippedElements:/(script|style|select|textarea)/i,hasPluginClass:new RegExp("(^| )"+i+"( |$)","gi")};$.fn[i]=function(d){function o(e){return e.replace(l.abbreviations,function(e){return e.replace(/\./g,"{{46}}")}).replace(l.innerWordPeriod,function(e){return e.replace(/\./g,"{{46}}")})}function c(e){return e.replace(/{{(\d{1,3})}}/g,function(e,t){return String.fromCharCode(t)})}function u(e,a){var n=t.createElement(a.tag);if(n.className=i,a.customClass&&(n.className+=" "+a.customClass,a.generateIndexID&&(n.id=a.customClass+"-"+f.blastedIndex)),a.generateValueClass===!0&&!a.search&&("character"===a.delimiter||"word"===a.delimiter)){var r,s=e.data;"word"===a.delimiter&&l.onlyContainsPunctuation.test(s)&&(s=s.replace(l.adjoinedPunctuation,"")),r=i+"-"+a.delimiter.toLowerCase()+"-"+s.toLowerCase(),n.className+=" "+r}return a.aria&&n.setAttribute("aria-hidden","true"),n.appendChild(e.cloneNode(!1)),n}function g(e,t){var a=-1,n=0;if(3===e.nodeType&&e.data.length){if(f.nodeBeginning&&(e.data=t.search||"sentence"!==t.delimiter?c(e.data):o(e.data),f.nodeBeginning=!1),a=e.data.search(p),-1!==a){var r=e.data.match(p),i=r[0],s=r[1]||!1;f.blastedIndex++,""===i?a++:s&&s!==i&&(a+=i.indexOf(s),i=s);var d=e.splitText(a);d.splitText(i.length),n=1,t.search||"sentence"!==t.delimiter||(d.data=c(d.data));var m=u(d,t,f.blastedIndex);d.parentNode.replaceChild(m,d),f.wrappers.push(m)}}else if(1===e.nodeType&&e.hasChildNodes()&&!l.skippedElements.test(e.tagName)&&!l.hasPluginClass.test(e.className))for(var h=0;h<e.childNodes.length;h++)f.nodeBeginning=!0,h+=g(e.childNodes[h],t);return n}function m(t,s){s.debug&&r.time("blast reversal");var l=!1;t.removeClass(i+"-root").removeAttr("aria-label").find("."+i).each(function(){var e=$(this);if(e.closest("."+i+"-root").length)l=!0;else{var t=this.parentNode;7>=n&&t.firstChild.nodeName,t.replaceChild(this.firstChild,this),t.normalize()}}),e.Zepto?t.data(i,a):t.removeData(i),s.debug&&(r.log(i+": Reversed Blast"+(t.attr("id")?" on #"+t.attr("id")+".":".")+(l?" Skipped reversal on the children of one or more descendant root elements.":"")),r.timeEnd("blast reversal"))}var h=$.extend({},$.fn[i].defaults,d),p,f={};if(h.search.length&&("string"==typeof h.search||/^\d/.test(parseFloat(h.search))))h.delimiter=h.search.toString().replace(/[-[\]{,}(.)*+?|^$\\\/]/g,"\\$&"),p=new RegExp("(?:^|[^-"+s.latinLetters+"])("+h.delimiter+"('s)?)(?![-"+s.latinLetters+"])","i");else switch("string"==typeof h.delimiter&&(h.delimiter=h.delimiter.toLowerCase()),h.delimiter){case"letter":case"char":case"character":p=/(\S)/;break;case"word":p=/\s*(\S+)\s*/;break;case"sentence":p=/(?=\S)(([.]{2,})?[^!?]+?([.…!?]+|(?=\s+$)|$)(\s*[′’'”″“")»]+)*)/;break;case"element":p=/(?=\S)([\S\s]*\S)/;break;default:if(!(h.delimiter instanceof RegExp))return r.log(i+": Unrecognized delimiter, empty search string, or invalid custom Regex. Aborting."),!0;p=h.delimiter}if(this.each(function(){var e=$(this),n=e.text();if(d!==!1){f={blastedIndex:0,nodeBeginning:!1,wrappers:[]},e.data(i)===a||"search"===e.data(i)&&h.search!==!1||(m(e,h),h.debug&&r.log(i+": Removed element's existing Blast call.")),e.data(i,h.search!==!1?"search":h.delimiter),h.aria&&e.attr("aria-label",n),h.stripHTMLTags&&e.html(n);try{t.createElement(h.tag)}catch(s){h.tag="span",h.debug&&r.log(i+": Invalid tag supplied. Defaulting to span.")}e.addClass(i+"-root"),h.debug&&r.time(i),g(this,h),h.debug&&r.timeEnd(i)}else d===!1&&e.data(i)!==a&&m(e,h);h.debug&&$.each(f.wrappers,function(e,t){r.log(i+" ["+h.delimiter+"] "+this.outerHTML),this.style.backgroundColor=e%2?"#f12185":"#075d9a"})}),d!==!1&&h.returnGenerated===!0){var b=$().add(f.wrappers);return b.prevObject=this,b.context=this.context,b}return this},$.fn.blast.defaults={returnGenerated:!0,delimiter:"word",tag:"span",search:!1,customClass:"",generateIndexID:!1,generateValueClass:!1,stripHTMLTags:!1,aria:!0,debug:!1}}(window.jQuery||window.Zepto,window,document);
+
+function getRandom(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+$("h1").blast({ delimiter: "character" });
+$("h1").hover(
+  function(){
+    var $spans = $(this).find('span');
+    $spans.each(function(){
+      var offsetX = getRandom(-300, 300);
+      var offsetY = getRandom(-20, 20);
+      var scale = getRandom(.5, 3);
+      $(this).velocity({translateX : offsetX, translateY: offsetY, scale: scale, color: '#990000'}, 300, [ 50, 5 ]);
+    });
+  },
+  function(){
+    var $spans = $(this).find('span');
+    $spans.each(function(){;
+                           $(this).velocity({translateX : 0, translateY: 0, scale: 1, color: '#000'}, 100);
+    });
+  }
+);</script>
+
+<!--SCRIPT LOADING-->
+<script>function autograph() {
+    var parent = document.querySelector('.signature'),
+        path = document.querySelector('.signature__path'),
+        length = path.getTotalLength();
+
+    path.style.transition = path.style.WebkitTransition = '4000';
+
+    path.style.strokeDasharray = length + ' ' + length;
+    path.style.strokeDashoffset = length;
+
+    path.getBoundingClientRect();
+
+    path.style.transition = path.style.webkitTransition = 'stroke-dashoffset 3.75s linear';
+    path.style.strokeDashoffset = '0';
+    path.style.strokeDashoffset = Math.abs(length) * -1;
+};
+
+setInterval(function() {
+    autograph();
+}, 4000);
+
+autograph();</script>
+
+      </body>
+
+
+  </html>
