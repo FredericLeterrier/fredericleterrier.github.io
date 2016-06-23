@@ -333,6 +333,8 @@ a.btn:hover .fa.fa-facebook:before {
 
 div .modal-content p {
   color:black;
+  margin-right: 10%;
+  margin-left: 10%;
   text-align: center;
 }
 
