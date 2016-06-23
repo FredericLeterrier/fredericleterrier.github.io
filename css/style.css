@@ -331,7 +331,10 @@ a.btn:hover .fa.fa-facebook:before {
 }
 
 
-div .modal-content p {color:black;}
+div .modal-content p {
+  color:black;
+  text-align: center;
+}
 
 
 .modal-trigger  {text-align: center;
@@ -344,7 +347,9 @@ div .modal-content p {color:black;}
     background-color: transparent;
  }
 
-.modal-trigger:hover {background-color: #424242!important;}
+.modal-trigger:hover {
+  background-color: #424242!important;
+}
 
 h1 { 
     animation-duration: 7s;
