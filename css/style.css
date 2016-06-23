@@ -159,7 +159,7 @@ span{
 
 /* PERSONNALISATION DU TEXTE*/
 p {
-    text-align: justify!important;
+    text-align: center;
     color: white;
     font-family: Verdana;
     font-size: 22px;
