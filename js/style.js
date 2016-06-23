@@ -3,17 +3,23 @@ function autograph() {
     var parent = document.querySelector('.signature'),
         path = document.querySelector('.signature__path'),
         length = path.getTotalLength();
+
     path.style.transition = path.style.WebkitTransition = '4000';
+
     path.style.strokeDasharray = length + ' ' + length;
     path.style.strokeDashoffset = length;
+
     path.getBoundingClientRect();
+
     path.style.transition = path.style.webkitTransition = 'stroke-dashoffset 3.75s linear';
     path.style.strokeDashoffset = '0';
     path.style.strokeDashoffset = Math.abs(length) * -1;
 };
+
 setInterval(function() {
     autograph();
 }, 4000);
+
 autograph();
 
 // NAV
