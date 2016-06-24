@@ -42,7 +42,6 @@
     height: 50px;
     float: right;
     padding: 0;
-    position: relative;
     z-index: 98;
 }
 
@@ -72,7 +71,7 @@ input[type="text"]:focus:hover {
 }
 
 input[type="text"]:focus {
-    width: 270px;
+    width: 250px;
     z-index: 1;
     border-bottom: 1px solid #BBB;
     cursor: text;
@@ -104,7 +103,6 @@ input[type="submit"]:hover {
 #background-slider .indicators .indicator-item {
     display:none;
 }
-
 
 /* PERSONNALISATION DES SLIDES*/
   .slider .indicators .indicator-item {
@@ -214,12 +212,10 @@ a:hover {
     color: #dd4b39;
 }
 
-
 /*MENTIONS LEGALES*/
 .mentions {
     font-size: 16px;
 }
-
 
 /*RESEAUX SOCIAUX*/
 div .footer-copyright {
