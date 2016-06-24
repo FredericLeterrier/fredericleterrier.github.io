@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 @import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-
 /*LOADER CHARGEMENT*/
 .loader {
     position: absolute;
@@ -15,16 +14,13 @@
     height: 88px;
     z-index: 56;
 }
-
 .signature {
     width: 252px;
     height: 88px;
 }
-
 .signature__inner {
     fill: none;
 }
-
 .signature__path {
     stroke: #b21616;
     stroke-width: 6;
@@ -32,7 +28,6 @@
     stroke-linejoin: round;
     transition: opacity 3s ease-in-out;
 }
-
 /*BARRE DE RECHERCHE*/
 #wrap {
     margin-top: 2px;
@@ -44,7 +39,6 @@
     padding: 0;
     z-index: 98;
 }
-
 input[type="text"] {
     height: 50px;
     font-size: 45px;
@@ -65,11 +59,9 @@ input[type="text"] {
     transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
     cursor: pointer;
 }
-
 input[type="text"]:focus:hover {
     border-bottom: 1px solid #BBB;
 }
-
 input[type="text"]:focus {
     width: 220px;
     z-index: 1;
@@ -94,32 +86,26 @@ input[type="submit"] {
     cursor: pointer;
     transition: opacity .4s ease;
 }
-
 input[type="submit"]:hover {
     opacity: 0.8;
 }
-
 /* PERSONNALISATIONS DES SLIDES BACKGROUND*/
 #background-slider .indicators .indicator-item {
     display:none;
 }
-
 /* PERSONNALISATION DES SLIDES*/
   .slider .indicators .indicator-item {
     z-index: 16;
 }
-
 div ul.slides {
     height:100%!important;
 }
-
 /*FLECHE RETOUR EN HAUT DE PAGE*/
 .fleche {
     margin-bottom: 12px;
     height: 4rem;
     position: absolute;
 }
-
 .fleche:hover {
     color:black;
    -webkit-transform:rotate(720deg);
@@ -132,7 +118,6 @@ div ul.slides {
   -o-transition:-o-transform 2s;           // Opéra
   -ms-transition:-ms-transform 2s;
 }
-
 #fleche {
     position: fixed;
     right:25px;
@@ -140,21 +125,17 @@ div ul.slides {
     bottom: 15px;
     cursor: pointer;
 }
-
 /*COULEUR D'ARRIERE PLAN*/
 body {
     background: #9e9e9e;
 }
-
 blockquote {
     font-family: 'Shadows Into Light', cursive !important;
     font-size:30px;
 }
-
 span{
     display: inline-block;
 }
-
 /* PERSONNALISATION DU TEXTE*/
 p {
     text-align: center;
@@ -163,10 +144,9 @@ p {
     font-size: 22px;
     font-weight: normal;
     text-shadow: 1px 1px 2px black;
-	  margin-right: 80px;
-	  margin-left: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
-
 /*TITRES ECRITURES QUI ECLATENT*/
 h1 {
    font-family: 'Indie Flower', cursive !important;
@@ -176,7 +156,6 @@ h1 {
    text-shadow: 1px 1px 2px white;
    font-weight: bold;
 }
-
 h3 {
     color: black;
     font-family:'Indie Flower', cursive !important;
@@ -185,7 +164,6 @@ h3 {
     font-weight:bold;
     text-transform : capitalize;
 }
-
 /* PERSONNALISATION DES TITRES DANS LAS SLIDES*/
 h5 {
     color: black;
@@ -195,15 +173,13 @@ h5 {
     font-weight:bold;
     text-transform : capitalize;
 }
-
 h6 {
-	  text-align: center;
+    text-align: center;
     font-size: 38px;
     font-family:'Indie Flower', cursive !important;
     font-weight: bold;
     text-shadow: 1px 1px 2px white;
 }
-
 /*COULEURS DES LIENS*/
 a:hover {
     color: #dd4b39;
@@ -211,12 +187,10 @@ a:hover {
 .link:visited {
     color: #dd4b39;
 }
-
 /*MENTIONS LEGALES*/
 .mentions {
     font-size: 16px;
 }
-
 /*RESEAUX SOCIAUX*/
 div .footer-copyright {
     text-align: center;
@@ -234,11 +208,9 @@ div .footer-copyright {
 *:before {
     box-sizing: border-box;
 }
-
 .buttons {
     text-align: center;
 }
-
 // Button frame
 .btn {
     padding: .875rem 1.2rem;
@@ -262,45 +234,37 @@ div .footer-copyright {
       background-color:#3b5998;
       border-color: @twitter;
     }
-
     .btn.google-plus {
       background-color: #d34836;
       border-color: @g-plus;
     }
-
     .btn.linkedin {
       background-color: #0976b4;
       border-color: @l-in;
     }
-
     .btn.github {
       background-color: #ffc838;
       border-color: @github;
     }
-
     .btn.facebook {
       background-color: #3b5998;
       border-color: @facebook;
     }
-
 button span,
 span {
     top: 0px;
     position: relative;
     transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
-
     button:hover span.label,
     a.btn:hover span.label {
     top: -40px;
     transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     }
-
 // Override inline-block from original
 .fa {
     position: absolute;
 }
-
 
 .fa.fa-google-plus:before,
 .fa.fa-twitter:before,
@@ -313,7 +277,6 @@ span {
     position: relative;
     transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
-
 button:hover .fa.fa-google-plus:before,
 button:hover .fa.fa-twitter:before,
 a.btn:hover .fa.fa-google-plus:before,
@@ -325,16 +288,12 @@ a.btn:hover .fa.fa-facebook:before {
     left: -50%;
     transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
-
-
 div .modal-content p {
     color:black;
     margin-right: 10%;
     margin-left: 10%;
     text-align: center;
 }
-
-
 .modal-trigger  {text-align: center;
     display: block;
     width: 100px;
@@ -344,12 +303,10 @@ div .modal-content p {
     border-radius: 60px;
     background-color: transparent;
  }
-
 .modal-trigger:hover {
     background-color: #424242!important;
 }
-
-h1 { 
+h1 {
     animation-duration: 7s;
     animation-name: slidein;
 }
